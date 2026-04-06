@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>RVL__SHOP</title>
+
+<style>
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #000;
+  color: white;
+}
+
+/* HEADER */
+header {
+  padding: 20px;
+  text-align: center;
+  font-size: 26px;
+  font-weight: bold;
+  border-bottom: 1px solid #222;
+}
+
+/* HERO */
+.hero {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.hero h1 {
+  font-size: 40px;
+}
+
+.hero p {
+  color: #aaa;
+}
+
+/* PRODUCTOS */
+.productos {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+  padding: 30px;
+}
+
+.card {
+  background: #111;
+  border-radius: 15px;
+  padding: 20px;
+  text-align: center;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.03);
+}
+
+.card img {
+  width: 100%;
+  max-width: 220px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+/* PRECIO */
+.precio {
+  font-size: 24px;
+  margin: 10px 0;
+  color: #25D366;
+  font-weight: bold;
+}
+
+/* BOTON */
+button {
+  padding: 12px 25px;
+  border-radius: 25px;
+  border: none;
+  background: #25D366;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* WHATSAPP */
+.whatsapp {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: #25D366;
+  padding: 15px;
+  border-radius: 50%;
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+
+/* SECCION */
+.info {
+  text-align: center;
+  padding: 40px;
+  color: #ccc;
+  border-top: 1px solid #222;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  color: #777;
+}
+</style>
+
+</head>
+
+<body>
+
+<header>RVL__SHOP 🎧</header>
+
+<section class="hero">
+  <h1>Calidad que se siente 🔥</h1>
+  <p>Audífonos premium al mejor precio</p>
+</section>
+
+<section class="productos">
+
+<!-- Producto 600 -->
+<div class="card">
+    
+  <h2>AirPods Básicos</h2>
+  <img src="audifonos 2.jpeg"AirPods básicos">
+  <p>Sonido claro y batería duradera</p>
+  <div class="precio">$600 MXN</div>
+  <button onclick="window.location.href='https://wa.me/528140161754?text=Hola%20quiero%20los%20AirPods%20de%20600'">
+    Comprar
+  </button>
+</div>
+
+<!-- Producto 750 -->
+<div class="card">
+  
+  <h2>AirPods Premium</h2>
+   <img src="audifonos 1 .jpeg" alt="AirPods premium">
+  <p>Mejor calidad de audio y diseño</p>
+  <div class="precio">$700 MXN</div>
+  <button onclick="window.location.href='https://wa.me/528140161754?text=Hola%20quiero%20los%20AirPods%20de%20750'">
+    Comprar
+  </button>
+</div>
+
+</section>
+
+<section class="info">
+  <p>✔ Compra segura por WhatsApp</p>
+  <p>✔ Pago por transferencia</p>
+  <p>✔ Entrega rápida 🚀</p>
+</section>
+
+<a class="whatsapp" href="https://wa.me/528140161754">💬</a>
+
+<footer>
+  ©️ 2026 RVL__SHOP
+</footer>
+</body>
+</html>
